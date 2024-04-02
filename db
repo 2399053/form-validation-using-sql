@@ -1,0 +1,11 @@
+CREATE DATABASE formValidation;
+
+USE formValidation;
+
+CREATE TABLE formData (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    age INT NOT NULL
+);
+ALTER USER 'your_username'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_password';
